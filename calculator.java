@@ -22,5 +22,10 @@ public class Calculator {
 
        System.out.println("Enter 2nd Num: ");
        int y=ip.nextInt();
+
+       getSum(x, y);
+       getSubtract(x, y);
+       getMulti(x, y);
+       getDiv(x, y);
     }
 }
